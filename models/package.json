@@ -1,0 +1,24 @@
+{
+  "name": "migration-app",
+  "version": "0.0.0",
+  "description": "This is a boiler plate sql migration application.",
+  "main": "index.js",
+  "scripts": {
+    "knex:cli": "node ./node_modules/knex/bin/cli.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euclidthedark/postgres-microservice-scaffold.git"
+  },
+  "author": "euclidthedark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/euclidthedark/postgres-microservice-scaffold/issues"
+  },
+  "homepage": "https://github.com/euclidthedark/postgres-microservice-scaffold#readme",
+  "dependencies": {
+    "knex": "^0.19.3",
+    "pg": "^7.12.1"
+  }
+}
