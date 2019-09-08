@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "knex:cli": "node ./node_modules/knex/bin/cli.js",
-    "test": "test"
+    "test": "test",
+    "migrate:local": "NODE_ENV=local npm run knex:cli migrate:up",
+    "create:local:migration": "NODE_ENV=local npm run knex:cli migrate:make"
   },
   "repository": {
     "type": "git",
