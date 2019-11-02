@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/euclidthedark/postgres-microservice-scaffold#readme",
   "dependencies": {
-    "knex": "^0.19.3",
+    "knex": "^0.19.5",
     "pg": "^7.12.1"
   }
 }
